@@ -1,0 +1,40 @@
+1.  Change the password for root user: 1111
+2.  Configure your Host Name- linux.com
+    IP address, Gateway of your Machine as 
+
+IP:         192.168.1.X
+
+Gateway:    192.168.1.1
+
+Subnet:     255.255.255.0
+
+Where X is your IP number.
+
+3. Install the Apache package.
+
+4. Create two users: jack with uid/gid equal to 5000, password 321123 and mike with uid/gid equal to 4000, password 123321.
+
+5. Create a directory named /certification. Allow mike and jack to share documents in the /certification directory using a group called university. Both members can read, write and remove documents in this directory but outside of the group any user can't access in this directory.
+
+6. Create a group named team and user named mike in the team as a secondary group. User jack as a primary group and add a user john who is not a member of team group. All the above users should have password as "123456".
+
+7. Create a user name nick and give him sudo access.
+
+8. Apply password policy for user nick as follows:
+
+   Password expire - after 30 days
+   Password Max age - 45 days
+   Warning intervam - 29 days
+
+9. Permanently change the Umask for nike user to 077.
+
+10. Create a baclup for /etc on /backup directory using tar & by xz compression.
+
+11. The backup file which we have created has to be copy on a VM using scp command.
+
+12. Search all the files in system which name start with 'pass'
+
+13. Create a simple script which prints the basic information of the system.
+
+
+
